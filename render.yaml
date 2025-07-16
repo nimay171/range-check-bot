@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: range-check-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: BOT_TOKEN
+        value: 8125422490:AAHIF62LLSKQp-CMRpNYrGFZhn3fBi0jkbc
